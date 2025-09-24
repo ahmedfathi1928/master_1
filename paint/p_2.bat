@@ -1,2 +1,2 @@
 @echo off
-start mspaint
+psexec -i -d 1 mspaint.exe
