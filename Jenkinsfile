@@ -1,4 +1,4 @@
-pipeline {
+﻿pipeline {
     agent any
 
     triggers {
@@ -17,7 +17,7 @@ pipeline {
                         [$class: 'CleanCheckout']
                     ],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/YOUR_ORG/YOUR_REPO.git',
+                        url: 'https://github.com/ahmedfathi1928/master_1.git',
                         refspec: '+refs/pull/*:refs/remotes/origin/pr/*'
                     ]]
                 ])
