@@ -6,6 +6,6 @@ REM Run the test with the tag filter
 robot --include IT-TC-813 Age_Verification.robot
 
 @echo off
-echo Jenkins ran successfully_R_1 at %date% %time% >> C:\Users\AhmedFathy\Desktop\jenkins_success.txt
+echo Jenkins ran successfully_R_2 at %date% %time% >> C:\Users\AhmedFathy\Desktop\jenkins_success.txt
 
 pause
